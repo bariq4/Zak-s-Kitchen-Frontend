@@ -1,4 +1,8 @@
-venv/
-credentials.json
-token.pickle
+node_modules
+.vscode
+dist
 .env
+*.log
+.venv
+.vercel
+credentials.json

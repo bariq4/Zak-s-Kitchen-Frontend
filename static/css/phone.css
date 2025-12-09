@@ -12,7 +12,6 @@ header {
     width: 100%;
     top: 0;
     z-index: 1000;
-    background-color: #ffa800;
 }
 
 /* Logo adjustments for mobile */
@@ -22,47 +21,8 @@ header {
 }
 
 .logo-img {
-    height: 50px;  /* Reduced from original size */
+    height: 50px;
     width: auto;
-}
-
-nav ul {
-    background-color: #333;
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-}
-
-
-
-nav ul.show {
-    display: flex;
-}
-
-nav ul li {
-    color: white;
-    width: 100%;
-    text-align: left;
-}
-
-nav ul li a {
-    color: white;
-    padding: 10px 15px;
-    display: block;
-    width: 100%;
-    text-decoration: none;
-}
-
-nav ul li a:hover {
-    color: #ffa800;
-    background-color: #444;
 }
 
 /* Main content */
@@ -71,42 +31,6 @@ main {
     width: 100%;
     overflow-x: hidden;
 }
-
-/* Menu Icon */
-.menu-icon {
-    display: block;
-    padding: 10px;
-    cursor: pointer;
-    color: black;
-}
-
-@media screen and (min-width: 1130px) {
-    .menu-icon {
-        display: none;
-    }
-    
-    nav ul {
-        display: flex;
-        flex-direction: row;
-        background-color: transparent;
-    }
-    
-    nav ul li {
-        width: auto;
-        border-bottom: none;
-    }
-    
-    nav ul li a {
-        color: black;
-        padding: 10px 15px;
-    }
-    
-    nav ul li a:hover {
-        color: white;
-        background-color: transparent;
-    }
-}
-
 
 /* Images */
 img {
@@ -138,4 +62,3 @@ input, select, textarea {
     max-width: 100%;
     box-sizing: border-box;
 }
-
